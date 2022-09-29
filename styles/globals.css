@@ -3,7 +3,5 @@
 @import "tailwindcss/utilities";
 
 html {
-  font-family: "Volkhov", serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  @apply text-dark-4 font-poppins font-normal text-base;
 }

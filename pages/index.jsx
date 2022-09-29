@@ -4,6 +4,6 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <h1 className="bg-slate-500 text-3xl hola--bien">Hello world!</h1>
+    <h1 className="title--1">Hello world!</h1>
   )
 }
