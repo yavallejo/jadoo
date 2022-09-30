@@ -1,7 +1,7 @@
 .slide {
   @apply flex flex-col items-center mt-16 xl:mt-5 lg:flex-row;
   &__button {
-    @apply mt-8;
+    @apply mt-8 flex items-center gap-x-5;
   }
   &__left {
   }

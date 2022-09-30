@@ -26,7 +26,10 @@ const Header = () => {
               <a className="btn btn__primary">Find out more</a>
             </Link>
             <Link href="/">
-              <a className="btn">Play Demo</a>
+              <a className="flex items-center btn gap-x-4">
+                <Image src="/img/icon-plays.png" width="52" height="52" />
+                Play Demo
+              </a>
             </Link>
           </div>
         </div>
