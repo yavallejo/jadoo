@@ -1,0 +1,17 @@
+.slide {
+  @apply flex flex-col items-center mt-16 xl:mt-5 lg:flex-row;
+  &__button {
+    @apply mt-8;
+  }
+  &__left {
+  }
+  &__right {
+    @apply hidden mx-auto w-full lg:block lg:max-w-[619.5px] lg:ml-auto;
+  }
+  &__title {
+    @apply title--2 text-center max-w-[560px] mx-auto text-dark-1 mb-8 lg:title--1 lg:normal-case lg:text-left lg:mx-0;
+  }
+  &__subtitle {
+    @apply text-primary text-center mt-5 uppercase font-bold text-xl mb-6 lg:text-left lg:mt-0;
+  }
+}

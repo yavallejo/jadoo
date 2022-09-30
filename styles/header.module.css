@@ -1,0 +1,17 @@
+.header {
+  @apply flex items-center;
+}
+
+.logo {
+  @apply max-w-[114px];
+}
+
+.navigation {
+  @apply ml-auto hidden lg:flex;
+  ul {
+    @apply flex items-center gap-x-14 text-[17px] leading-[22px] font-opensans text-dark-1;
+    a {
+      @apply hover:text-primary-hover;
+    }
+  }
+}

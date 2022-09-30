@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <h1 className="title--1">Hello world!</h1>
-  )
+    <Layout>
+      <h1>Hello world!</h1>
+    </Layout>
+  );
 }

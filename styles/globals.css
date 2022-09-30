@@ -1,7 +1,12 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+@import "./buttons.css";
 @import "tailwindcss/utilities";
 
 html {
-  @apply text-dark-4 font-poppins font-normal text-base;
+  @apply text-dark-4 font-poppins title--body;
+}
+
+.decoration {
+  @apply relative after:hidden lg:after:block after:bg-decoration after:absolute after:top-0 after:right-0 after:bg-cover after:bg-center after:w-full after:h-full after:max-w-[704px] after:max-h-[724px] after:-z-10;
 }

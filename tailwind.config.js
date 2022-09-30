@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        decoration: "url('/img/decore.png')",
+      },
       colors: {
         primary: {
           DEFAULT: "#DF6951",
@@ -52,7 +55,7 @@ module.exports = {
           fontSize: "5.25rem", //84px
           lineHeight: "5.563rem", //89px
           letterSpacing: "-0.04em",
-          textTransform: "capitalize",
+          fontFamily: "Volkhov",
         },
         ".title--2": {
           fontWeight: 700,
@@ -102,7 +105,7 @@ module.exports = {
             maxWidth: "960px",
           },
           "@screen xl": {
-            maxWidth: "1140px",
+            maxWidth: "1200px",
           },
         },
       });
