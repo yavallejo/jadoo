@@ -79,6 +79,11 @@ module.exports = {
           fontSize: "1.125rem", //18px
           lineHeight: "1.688rem", //27px
         },
+        ".title--6": {
+          fontWeight: 500,
+          fontSize: "1rem", //16px
+          lineHeight: "1.625rem", //26px
+        },
         ".title--body": {
           fontWeight: 400,
           fontSize: "1rem", //16px
