@@ -1,8 +1,8 @@
 import Image from "next/future/image";
 
-const cardIcon = ({ imageIcon,title, description }) => {
+const CardIcon = ({ imageIcon,title, description }) => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center transition-all rounded-3xl hover:shadow-xl hover:bg-white p-11">
       <Image
         src={imageIcon}
         alt={description}
@@ -19,4 +19,4 @@ const cardIcon = ({ imageIcon,title, description }) => {
   );
 };
 
-export default cardIcon;
+export default CardIcon;
