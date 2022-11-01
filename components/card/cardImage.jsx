@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 const CardImage = ({ imageCard, titleCard, priceCard, daysTrip }) => {
   return (
     <div className="block pb-8 transition-all shadow-xl rounded-3xl last-of-type:md:hidden last-of-type:lg:block">

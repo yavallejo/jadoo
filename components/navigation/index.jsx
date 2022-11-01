@@ -1,16 +1,19 @@
-import Image from "next/future/image"
+import Image from "next/image";
 import Link from "next/link";
 
-import style from "../../styles/header.module.css"
+import style from "../../styles/header.module.css";
 
 const Navigation = () => {
   return (
     <div className={style.header}>
       <div className={style.header__left}>
-        <Link href="/">
-          <a className={style.logo}>
-            <Image src="/img/logo-jadoo.png" width="231" height="69" className="w-full"/>
-          </a>
+        <Link href="/" className={style.logo}>
+          <Image
+            src="/img/logo-jadoo.png"
+            width="231"
+            height="69"
+            className="w-full"
+          />
         </Link>
       </div>
       <nav className={style.navigation}>
@@ -31,8 +34,11 @@ const Navigation = () => {
             <Link href="/login">Login</Link>
           </li>
           <li>
-            <Link href="/signup">
-              <a className="btn btn__outline btn__outline--dark">Sign up</a>
+            <Link
+              href="/signup"
+              className="btn btn__outline btn__outline--dark"
+            >
+              Sign up
             </Link>
           </li>
           <li>
@@ -42,6 +48,6 @@ const Navigation = () => {
       </nav>
     </div>
   );
-}
+};
 
-export default Navigation
+export default Navigation;

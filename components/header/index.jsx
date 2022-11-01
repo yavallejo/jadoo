@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/future/image";
-import Navigation from "../navigation"
+import Image from "next/image";
+import Navigation from "../navigation";
 import style from "../../styles/slide.module.css";
 
 const Header = () => {
@@ -22,14 +22,12 @@ const Header = () => {
             west hard for the.
           </p>
           <div className={style.slide__button}>
-            <Link href="/">
-              <a className="btn btn__primary">Find out more</a>
+            <Link href="/" className="btn btn__primary">
+              Find out more
             </Link>
-            <Link href="/">
-              <a className="flex items-center btn gap-x-4">
-                <Image src="/img/icon-plays.png" width="52" height="52" />
-                Play Demo
-              </a>
+            <Link href="/" className="flex items-center btn gap-x-4">
+              <Image src="/img/icon-plays.png" width="52" height="52" />
+              Play Demo
             </Link>
           </div>
         </div>
@@ -44,6 +42,6 @@ const Header = () => {
       </div>
     </>
   );
-}
+};
 
-export default Header
+export default Header;
